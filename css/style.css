@@ -30,3 +30,11 @@
     opacity: 0;
 }
 /* fine quarto esercizio  */
+/* quinto esercizio  */
+.ex-5-square{
+    transition: all 1s ease;
+}
+.ex-5-square:hover{
+    transform: scale(2);
+}
+/* fine quinto esercizio  */
