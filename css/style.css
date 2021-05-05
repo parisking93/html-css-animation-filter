@@ -92,3 +92,22 @@
         0% {transform: rotate(0deg);}
     }
  /* fine esercizio 11 */
+ /* esercizio 12  */
+ .ex-12-button:hover .ex-12-top-white{
+    animation: move 2s linear 1;
+}
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: move2 2s linear 1;
+}
+
+@keyframes move{
+    0%{left: 10%;}
+    60%{left: calc(100% - 60px);}
+    100%{left: 10%;}
+}
+@keyframes move2{
+    0%{right: 20%;}
+    60%{right: calc(100% - 60px);}
+    100%{right: 20%;}
+}
+ /* fine esercizio 12  */
