@@ -37,6 +37,9 @@
 .ex-5-square:hover{
     transform: scale(2);
 }
+.ex-5-square:active{
+    transform: scale(0.5);
+}
 /* fine quinto esercizio  */
 /* sesto esercizio  */
 .ex-6-img:hover{
@@ -52,5 +55,11 @@
 }
  /* fine settimo esercizio  */
  /* ottavo esercizio  */
- 
+ .ex-8-img{
+     transition: all 2s ease;
+ }
+ .ex-8-img:hover{
+    filter: saturate(100%) sepia(80%);
+    border-radius: 20px;
+}
  /* fine ottavo esercizio  */
