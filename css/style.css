@@ -73,3 +73,12 @@
     transform: scale(1.5);
 }
  /* fine nono esercizio  */
+ /* inizio esercizio 10 */
+ .ex-10-icon{
+     animation: spin 1s linear infinite;
+ }
+ @keyframes spin {
+     from {transorm: rotate(0deg);}
+     to {transform:rotate(360deg)}
+ }
+ /* fine esercizio 10  */
