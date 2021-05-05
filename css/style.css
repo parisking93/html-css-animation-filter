@@ -6,3 +6,11 @@
     background-color: red;
 }
 /* fine primo esercizio */
+/* secondo esercizio  */
+.ex-2-square{
+    transition: width 2s ease-in-out;
+}
+.ex-2-square:active{
+    width: 100%;
+}
+/* fine secondo esercizio  */
