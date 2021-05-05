@@ -43,3 +43,11 @@
     filter: grayscale();
 }
 /* fine sesto esercizio  */
+/* inizio settimo esercizio  */
+.ex-7-img{
+    transition: all 2s linear;
+}
+.ex-7-img:hover{
+    filter:sepia(0.6) saturate(100%);
+}
+ /* fine settimo esercizio  */
