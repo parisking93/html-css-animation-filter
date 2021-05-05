@@ -38,3 +38,8 @@
     transform: scale(2);
 }
 /* fine quinto esercizio  */
+/* sesto esercizio  */
+.ex-6-img:hover{
+    filter: grayscale();
+}
+/* fine sesto esercizio  */
