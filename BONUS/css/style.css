@@ -2,15 +2,26 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}   
+} 
+body{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    height: 100vh;
+}  
 .container{
     height: 400px;
     width: 600px;
-    background-color: lightblue;
+    background-color: rgba(255,255,255, 0.2);
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+    border-radius: 20px;
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    /* solo per google chrome e safari*/
+    backdrop-filter: blur(4px);
+
 }
 .subcontainer{
     width: 100%;
@@ -36,8 +47,8 @@
     width: 5px;
     height: 5px;
     position: relative; 
-    background-color: black;
-
+    background-color: white;
+    border-radius: 2px;
 }
 .dots.small{
     width: 5px;
@@ -96,43 +107,43 @@
 }
 
 @keyframes moves{
-    0% {top: 51vh; left: 50vh; background-color: transparent}
+    0% {top: 51vh; left: 50vh; background-color: transparent;}
     30%{background-color: transparent;}
-    90%{top: 0; left: 0; background-color: orange}
+    85%{top: 0; left: 0; background-color: orange}
     100%{background-color: black;}
 }
 @keyframes moves2{
     0% {top: -50vh; left: -50vh; background-color: transparent;}
     30%{background-color: transparent;}
-    90%{top: 0; left: 0;background-color: blue;}
+    85%{top: 0; left: 0;background-color: blue;}
     100%{background-color: black;}
 
 }
 @keyframes moves3{
     0% {left: -50vh; background-color: transparent;}
     30%{background-color: transparent;}
-    90%{left: 0;background-color: red;}
+    85%{left: 0;background-color: red;}
     100%{background-color: black;}
 
 }
 @keyframes moves4{
     0% {right: -50vh; background-color: transparent;}
     30%{background-color: transparent;}
-    90%{right: 0;background-color: green;}
+    85%{right: 0;background-color: green;}
     100%{background-color: black;}
 
 }
 @keyframes moves5{
-    0% {right: 50vh; top: 0; background-color: transparent;}
+    0% {right: -40vh; top: -25vh; background-color: transparent;}
     30%{background-color: transparent;}
-    90%{right: 0;background-color: white;}
+    85%{right: 0; top:0; background-color: white;}
     100%{background-color: black;}
 
 }
 @keyframes moves6{
-    0% {top: 50vh; left: 50vh; background-color: transparent;}
+    0% {top: 50vh; left: -50vh; background-color: transparent;}
     30%{background-color: transparent;}
-    90%{top: 0; left: 0; background-color: yellow;}
+    85%{top: 0; left: 0; background-color: yellow;}
     100%{background-color: black;}
 
 }
