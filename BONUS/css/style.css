@@ -17,8 +17,14 @@
     height: 100%;
 }
 /* COMMONS */
+.margin-bottom-small{
+    margin-bottom: 3px;
+}
 .margin-top{
     margin-top: 5px;
+}
+.margin-left{
+    margin-left: 5px;
 }
 .inline-bl{
     display: inline-block;
@@ -28,6 +34,11 @@
     height: 5px;
     background-color: black;
 }
+.dots.small{
+    width: 5px;
+    height: 3px;
+}
+
 .relative{
     position: relative;
 }
@@ -41,7 +52,7 @@
 }
 
 /* FINE COMMONS */
-.lettera-h{
+.lettera-h, .lettera-e, .lettera-l, .lettera-l, .lettera-o{
     background-color: rgba(0, 0,0,0.2);
     padding: 5px;
     
