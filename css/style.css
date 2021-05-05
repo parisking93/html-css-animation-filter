@@ -82,3 +82,13 @@
      to {transform:rotate(360deg)}
  }
  /* fine esercizio 10  */
+ /* esercizio 11 */
+    .ex-11-icon:hover{
+        animation: spin2 2s linear 1;
+    }
+    @keyframes spin2 {
+        0% {transform: rotate(0deg);}
+        90% {transform:rotate(290deg)}
+        0% {transform: rotate(0deg);}
+    }
+ /* fine esercizio 11 */
