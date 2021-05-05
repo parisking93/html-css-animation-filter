@@ -57,6 +57,19 @@
 /* FINE COMMONS */
 .lettera-h, .lettera-e, .lettera-l, .lettera-l, .lettera-o{
     background-color: rgba(0, 0,0,0.2);
-    padding: 5px;
-    
+    padding: 5px; 
+}
+.parola{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.dots.primo{
+    animation: moves 5s ease-in-out 1;
+    position: relative; 
+}
+@keyframes moves{
+    0% {top: 51vh; left: 50vh;}
+    100%{top: 0; left: 0;}
 }
