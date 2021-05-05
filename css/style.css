@@ -63,3 +63,13 @@
     border-radius: 20px;
 }
  /* fine ottavo esercizio  */
+ /* inizio nono esercizio  */
+ .ex-9-img{
+    transition: all 2s ease-out;
+}
+.ex-9-img:hover{
+    filter: sepia(70%) grayscale(30%);
+    border-radius: 20px;
+    transform: scale(1.5);
+}
+ /* fine nono esercizio  */
