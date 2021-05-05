@@ -14,3 +14,11 @@
     width: 100%;
 }
 /* fine secondo esercizio  */
+/* terzo esercizio */
+.ex-3-square{
+    transition: border-radius 0.5s ease-in;
+}
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+/* fine terzo esercizio  */
