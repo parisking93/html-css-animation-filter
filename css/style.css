@@ -22,3 +22,11 @@
     border-radius: 50%;
 }
 /* fine terzo esercizio  */
+/* quarto esercizio  */
+.ex-4-square{
+    transition: all 1s ease-out;
+}
+.ex-4-square:hover{
+    opacity: 0;
+}
+/* fine quarto esercizio  */
