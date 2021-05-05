@@ -35,7 +35,9 @@
 .dots{
     width: 5px;
     height: 5px;
+    position: relative; 
     background-color: black;
+
 }
 .dots.small{
     width: 5px;
@@ -55,9 +57,17 @@
 }
 
 /* FINE COMMONS */
-.lettera-h, .lettera-e, .lettera-l, .lettera-l, .lettera-o{
-    background-color: rgba(0, 0,0,0.2);
-    padding: 5px; 
+.lettera-h, .lettera-e{
+    width: 23px;
+    height: 25px;
+}
+.lettera-l, .lettera-o{
+    width: 15px;
+    height: 20px;
+}
+.special{
+    width: 17px;
+    height: 6px;
 }
 .parola{
     position: absolute;
@@ -66,10 +76,63 @@
     transform: translate(-50%,-50%);
 }
 .dots.primo{
-    animation: moves 5s ease-in-out 1;
-    position: relative; 
+    animation: moves 4s ease-out 1;
+    
 }
+.dots.secondo{
+    animation: moves2 4s ease-out 1;
+}
+.dots.terzo{
+    animation: moves3 4s ease-out 1;
+}
+.dots.quarto{
+    animation: moves4 4s ease-out 1;
+}
+.dots.quinto{
+    animation: moves5 4s ease-out 1;
+}
+.dots.sesto{
+    animation: moves6 4s ease-out 1;
+}
+
 @keyframes moves{
-    0% {top: 51vh; left: 50vh;}
-    100%{top: 0; left: 0;}
+    0% {top: 51vh; left: 50vh; background-color: transparent}
+    30%{background-color: transparent;}
+    90%{top: 0; left: 0; background-color: orange}
+    100%{background-color: black;}
+}
+@keyframes moves2{
+    0% {top: -50vh; left: -50vh; background-color: transparent;}
+    30%{background-color: transparent;}
+    90%{top: 0; left: 0;background-color: blue;}
+    100%{background-color: black;}
+
+}
+@keyframes moves3{
+    0% {left: -50vh; background-color: transparent;}
+    30%{background-color: transparent;}
+    90%{left: 0;background-color: red;}
+    100%{background-color: black;}
+
+}
+@keyframes moves4{
+    0% {right: -50vh; background-color: transparent;}
+    30%{background-color: transparent;}
+    90%{right: 0;background-color: green;}
+    100%{background-color: black;}
+
+}
+@keyframes moves5{
+    0% {right: 50vh; top: 0; background-color: transparent;}
+    30%{background-color: transparent;}
+    90%{right: 0;background-color: white;}
+    100%{background-color: black;}
+
+}
+@keyframes moves6{
+    0% {top: 50vh; left: 50vh; background-color: transparent;}
+    30%{background-color: transparent;}
+    90%{top: 0; left: 0; background-color: yellow;}
+    100%{background-color: black;}
+
 }
