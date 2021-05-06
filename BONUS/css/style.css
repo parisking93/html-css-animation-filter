@@ -90,8 +90,15 @@ body{
     animation: moves 4s ease-out 1;
     
 }
+.dots.primoopp-dir{
+    animation: movesb 4s ease-out 1;
+    
+}
 .dots.secondo{
     animation: moves2 4s ease-out 1;
+}
+.dots.secondoopp-dir{
+    animation: moves2b 4s ease-out 1;
 }
 .dots.terzo{
     animation: moves3 4s ease-out 1;
@@ -99,8 +106,14 @@ body{
 .dots.quarto{
     animation: moves4 4s ease-out 1;
 }
+.dots.quartoopp-dir{
+    animation: moves4b 4s ease-out 1;
+}
 .dots.quinto{
     animation: moves5 4s ease-out 1;
+}
+.dots.quintoopp-dir{
+    animation: moves5b 4s ease-out 1;
 }
 .dots.sesto{
     animation: moves6 4s ease-out 1;
@@ -108,41 +121,68 @@ body{
 
 @keyframes moves{
     0% {top: 51vh; left: 50vh; background-color: transparent;}
-    30%{background-color: transparent;}
+    17%{background-color: transparent;}
+    85%{top: 0; left: 0; background-color: orange}
+    100%{background-color: black;}
+}
+@keyframes movesb{
+    0% {top: -51vh; left: -50vh; background-color: transparent;}
+    17%{background-color: transparent;}
     85%{top: 0; left: 0; background-color: orange}
     100%{background-color: black;}
 }
 @keyframes moves2{
     0% {top: -50vh; left: -50vh; background-color: transparent;}
-    30%{background-color: transparent;}
+    17%{background-color: transparent;}
+    85%{top: 0; left: 0;background-color: blue;}
+    100%{background-color: black;}
+
+}
+@keyframes moves2b{
+    0% {top: 50vh; left: 50vh; background-color: transparent;}
+    17%{background-color: transparent;}
     85%{top: 0; left: 0;background-color: blue;}
     100%{background-color: black;}
 
 }
 @keyframes moves3{
     0% {left: -50vh; background-color: transparent;}
-    30%{background-color: transparent;}
+    17%{background-color: transparent;}
     85%{left: 0;background-color: red;}
     100%{background-color: black;}
 
 }
 @keyframes moves4{
     0% {right: -50vh; background-color: transparent;}
-    30%{background-color: transparent;}
+    17%{background-color: transparent;}
     85%{right: 0;background-color: green;}
+    100%{background-color: black;}
+
+}
+@keyframes moves4b{
+    0% {right: 50vh; background-color: transparent;}
+    17%{background-color: transparent;}
+    75%{right: 0;background-color: green;}
     100%{background-color: black;}
 
 }
 @keyframes moves5{
     0% {right: -40vh; top: -25vh; background-color: transparent;}
-    30%{background-color: transparent;}
+    17%{background-color: transparent;}
+    85%{right: 0; top:0; background-color: white;}
+    100%{background-color: black;}
+
+}
+@keyframes moves5b{
+    0% {right: 40vh; top: 25vh; background-color: transparent;}
+    17%{background-color: transparent;}
     85%{right: 0; top:0; background-color: white;}
     100%{background-color: black;}
 
 }
 @keyframes moves6{
     0% {top: 50vh; left: -50vh; background-color: transparent;}
-    30%{background-color: transparent;}
+    17%{background-color: transparent;}
     85%{top: 0; left: 0; background-color: yellow;}
     100%{background-color: black;}
 
